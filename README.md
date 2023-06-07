@@ -1,2 +1,2 @@
 # tic-tac-toe
-tic tac toe for odin project
+tic tac toe game from Anubhav

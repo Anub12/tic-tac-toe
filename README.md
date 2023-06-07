@@ -1,2 +1,2 @@
 # tic-tac-toe
-tic tac toe game from anubhav
+tic tac toe game

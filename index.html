@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anubhav-TicTacToe</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="card">
+        <h1 class="card-title" data-text="TIC TAC TOE">TIC TAC TOE</h1>
+        <hr width="100%" color="gray" size="1px">
+        <div class="message">
+          <div id="player1-info" class="w-100">
+            <div class="info">
+              <span class="symbol"></span>:
+              <span class="name"></span>
+            </div>
+            <div class="score d-none">
+              <h4>Score: <span></span></h4>
+            </div>
+          </div>
+          <div class="line">
+            <pre>                </pre>
+          </div>
+          <div id="player2-info" class="w-100">
+            <div class="info">
+              <span class="symbol"></span>:
+              <span class="name"></span>
+            </div>
+            <div class="score d-none">
+              <h4>Score: <span></span></h4>
+            </div>
+          </div>
+        </div>
+        
+        <hr width="100%" color="gray" size="1px"/>
+        <div class="grid-container">
+          <div class="board">
+            
+              <span data-index="0"></span>
+              <span data-index="1" class="middle-y"></span>
+              <span data-index="2"></span>
+            
+            
+              <span data-index="3" class="middle-x"></span>
+              <span data-index="4" class="middle-y middle-x"></span>
+              <span data-index="5" class="middle-x"></span>
+            
+            
+              <span data-index="6"></span>
+              <span data-index="7" class="middle-y"></span>
+              <span data-index="8"></span>
+            
+          </div>
+        </div>
+        <hr width="100%" color="gray" size="1px">
+        <div class="message2">
+          <div class="cell-warning" style="color: red; font-size: 10px">
+            [WARNING] Cell is already filled, try another one.
+          </div>
+          <div class="turn">
+            It's <span class="turn"></span> turn!
+          </div>
+          <div class="winning-status d-none"></div>
+        </div>
+        <div class="card-bottom">
+          <button class="choice choice-x d-none">X</button>
+          <button class="choice choice-y d-none">O</button>
+          <button class="choice reset">RESET</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
